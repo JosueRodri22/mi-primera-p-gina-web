@@ -1,10 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Página Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Reemplaza "estilos.css" con la ruta de tu archivo CSS personalizado -->
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        header img {
+            width: 100px;
+            height: 120px;
+            border-radius: 50px ;
+        }
+
+        /* Estilos para secciones */
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0 0 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Estilos para enlaces */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        /* Estilos para listas */
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Hola, mundo! Jireh</h1>
-    <p>Esta es mi primera página web.</p>
+    <header>
+        <h1>Tu Nombre</h1>
+        <p>Desarrollador Web</p>
+        <img src="https://www.hubspot.com/hubfs/media/lenguajesprogramacion.jpeg" alt="Descripción de la imagen">
+    </header>
+    
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Aquí puedes escribir una breve descripción sobre ti, tus habilidades y tu pasión por la programación web.</p>
+    </section>
+
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <!-- Aquí puedes agregar tus proyectos con enlaces a tus trabajos y descripciones breves. Ejemplo:
+        <h3>Proyecto 1</h3>
+        <p>Descripción breve del proyecto. <a href="enlace-al-proyecto">Ver proyecto</a></p>
+        -->
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <!-- Enumera tus habilidades, lenguajes de programación, herramientas, etc. Ejemplo:
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+        -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en <a href="mailto:tu@email.com">tu@email.com</a> o a través de mis redes sociales:</p>
+        <!-- Agrega enlaces a tus perfiles de redes sociales si lo deseas -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Nombre</p>
+    </footer>
 </body>
 </html>
